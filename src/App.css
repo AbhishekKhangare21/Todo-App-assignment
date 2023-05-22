@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.main-div {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+.child-div figure img {
+  width: 10rem;
+  height: 10rem;
+}
+.child-div figure figcaption {
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  text-transform: capitalize;
+}
+figure {
+  text-align: center;
+  padding-right: 50px;
+}
+input {
+  min-width: 38rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  color: rgb(58, 57, 57);
+  /* background-color: white; */
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 242, 69, 0.5);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.add-btn {
+  height: 3.4rem;
+  padding: 2rem 2rem;
+  padding-top: 2rem;
+
+  font-size: 1.8rem;
+}
+
+input,
+input:focus,
+input:active:focus {
+  border: none;
+  padding: 2.3rem 1.5rem;
+  outline: none;
+}
+.todo-btn {
+  width: 3rem;
+  margin-left: 2rem;
+  height: 2rem;
+
+  font-size: 2rem;
+}
+.todo-btn:hover {
+  color: rgb(14, 187, 14);
+}
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+.eachItem {
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+
+  min-width: 43.79rem;
+  /* background-color: rgb(15, 41, 220); */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.eachItem h3 {
+  /* padding-left: 1rem;
+  font-size: 1.6rem; */
+
+  min-width: 38rem;
+  height: 4.3rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  padding-top: 10px;
+  color: rgb(58, 57, 57);
+  /* background-color: white; */
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 1px 1px rgba(255, 136, 136, 0.8);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.add-btn:hover {
+  color: red;
+}
+.btn {
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 40px;
+  background-color: rgb(199, 199, 199);
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(217, 70, 34);
+  color: white;
+}
+.RemoveItems {
+  padding-left: 125px;
+  padding-top: 20px;
+}
